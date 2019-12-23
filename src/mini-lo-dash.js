@@ -1,7 +1,6 @@
 ;(function (root) {
     var _ = root._ = (root._ || {});
 
-    // start writing your code here
     _.each = function (array, callback) {
         for (var i = 0; i < array.length; i++) {
             callback(array[i]);
@@ -57,11 +56,5 @@
         var randomIndex = Math.floor((Math.random() * array.length));
         return array[randomIndex];
     }
-
-
-
-
-
-
 
 })(window);
